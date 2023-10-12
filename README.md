@@ -17,10 +17,8 @@ For Mac Users:
 2.	Find where the haMMy5_mac folder is located (by right clicking any file in the folder and moving to Get Info; copy the “Where:” )
 3.	Open the computer’s terminal shell
 4.	Terminal Commands:
-1)	cd 'copied_file_path'
-for example: 
-cd '/Users/user/Dropbox/Manuscripts/HaMMy/haMMy5_mac'
-2)	python3 HaMMy5_mac.py
+    a. cd 'copied_file_path'       // for example: cd '/Users/user/Dropbox/Manuscripts/HaMMy/haMMy5_mac'
+    b. python3 HaMMy5_mac.py
 
 For Window Users
 1.	Download python 3.7+ (https://www.python.org/downloads/windows/)

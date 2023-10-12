@@ -1,6 +1,6 @@
 # HaMMy5
 
-**HaMMy v5.0 User Guide**
+HaMMy v5.0 User Guide
 Sophia Yan’s Python version of HaMMy4.0 developed by Sean McKinney and Taekjip Ha 
 
 Reference:

@@ -1,0 +1,2 @@
+1. download python 3.7+ (https://www.python.org/downloads/windows/)
+2. open HaMMy5_windows.py

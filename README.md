@@ -10,7 +10,7 @@ Downloading HaMMy5 GUI
 ----
 HaMMy5 supports two operating systems: Windows and Mac. Download the folder that is compatible with your operator.
 
-Starting the HaMMy5 GUI
+Starting HaMMy5 GUI
 ---
 For Mac Users:
 1.	Download Python 3.7 or above (https://www.python.org/downloads/macos/)  

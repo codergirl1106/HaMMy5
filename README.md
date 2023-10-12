@@ -1,10 +1,8 @@
 # HaMMy5
 
-HaMMy v5.0 User Guide
-Sophia Yan’s Python version of HaMMy4.0 developed by Sean McKinney and Taekjip Ha 
+HaMMy v5.0 User Guide: Sophia Yan’s Python version of HaMMy4.0 developed by Sean McKinney and Taekjip Ha 
 
-Reference:
-McKinney, S. A., Joo, C., and Ha, T. (2006) Analysis of single-molecule FRET trajectories using hidden Markov modeling. Biophysical journal 91, 1941-1951, PMID: 16766620
+Reference: McKinney, S. A., Joo, C., and Ha, T. (2006) Analysis of single-molecule FRET trajectories using hidden Markov modeling. Biophysical journal 91, 1941-1951, PMID: 16766620
 
 HaMMy5 is an updated version in Python of its predecessor, 4.0, and is compatible with Mac and Windows V8+ (there are no public versions of Python 3 that support Windows V7 or below).
 

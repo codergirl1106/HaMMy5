@@ -1,5 +1,7 @@
 # HaMMy5
 
+<a href="https://zenodo.org/doi/10.5281/zenodo.10961124"><img src="https://zenodo.org/badge/704161444.svg" alt="DOI"></a>
+
 HaMMy v5.0 User Guide: Sophia Yan’s Python version of HaMMy4.0 developed by Sean McKinney and Taekjip Ha 
 
 Reference: McKinney, S. A., Joo, C., and Ha, T. (2006) Analysis of single-molecule FRET trajectories using hidden Markov modeling. Biophysical journal 91, 1941-1951, PMID: 16766620

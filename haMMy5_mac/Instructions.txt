@@ -2,6 +2,10 @@ open terminal
 1. download python 3.7+
 2. find where the haMMy5_mac folder is located (by right clicking any file in the folder and moving to Get Info, copy the "Where:" )
 3. open terminal
-4. cd (to exit out of any sub-directory)
-5. cd 'copied_file_path' (for example: cd '/Users/jingli/Dropbox (BCH)/Springer_Lab/Manuscripts/Li_Jing and Myung Hyun smFRET/Updated HaMMy software/haMMy5_mac')
-6. python3 HaMMy5_mac.py
+4. command: cd
+* explanation: this is to exit out of any sub-directory
+5. command: cd 'copied_file_path'
+* for example: cd '/Users/codergirl1106/haMMy5_mac'
+6. chmod 777 executable
+* explanation: gives youself access to run the executable file
+7. python3 HaMMy5_mac.py

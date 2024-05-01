@@ -217,8 +217,8 @@ def refresh(*args):
                 one = [float(y.split()[-3]) for y in t]
 
             with open(file[:-4]+"dwell.dat", 'w') as w:
-                for i in range(len(one)):
-                    w.write(f"{one[i]}\t{two[i]}\t{three[i]}\t{four[i]}\n")
+                for i in range(1, len(one)):
+                    w.write(f"{'_'.join(file.split('/')[-1].split('_')[:2])}\t{one[i]}\t{two[i]}\t{three[i]}\t{four[i]}\n")
                     
             with open(file[:-4]+"report.dat", 'r') as w:
                 m_prob = float(w.read().split('\n')[0].split()[-1])
@@ -376,8 +376,8 @@ def upload(event=None):
                     one = [float(y.split()[-3]) for y in t]
 
                 with open(ff[:-4]+"dwell.dat", 'w') as w:
-                    for i in range(len(one)):
-                        w.write(f"{one[i]}\t{two[i]}\t{three[i]}\t{four[i]}\n")
+                    for i in range(1, len(one)):
+                        w.write(f"{'_'.join(ff.split('/')[-1].split('_')[:2])}\t{one[i]}\t{two[i]}\t{three[i]}\t{four[i]}\n")
                     
                 with open(ff[:-4]+"report.dat", 'r') as w:
                     m_prob = float(w.read().split('\n')[0].split()[-1])

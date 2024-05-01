@@ -20,7 +20,7 @@ For Mac Users:
 3.	Open the computer’s terminal shell
 4.	Terminal Commands:  
     a. cd 'copied_file_path' &emsp; &emsp; &emsp; // for example: cd '/Users/user/Dropbox/Manuscripts/HaMMy/haMMy5_mac'    
-  	b. chmod 777 executable
+  	b. chmod 777 executable    
     c. python3 HaMMy5_mac.py
 
 For Window Users

@@ -8,4 +8,4 @@ open terminal
 * for example: cd '/Users/codergirl1106/haMMy5_mac'
 6. chmod 777 executable
 * explanation: gives youself access to run the executable file
-7. python3 HaMMy5_mac.py
+7. python HaMMy5_mac.py

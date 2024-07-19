@@ -21,7 +21,7 @@ For Mac Users:
 4.	Terminal Commands:  
     a. cd 'copied_file_path' &emsp; &emsp; &emsp; // for example: cd '/Users/codergirl1106/haMMy5_mac'    
   	b. chmod 777 executable    
-    c. python3 HaMMy5_mac.py
+    c. python HaMMy5_mac.py
 
 For Window Users
 1.	Download Python 3.7 or above (https://www.python.org/downloads/windows/)

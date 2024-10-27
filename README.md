@@ -57,7 +57,9 @@ Output files
 
 *pathplot.png provides the plot based on the path.dat file.
 
-\*report.dat provides the model parameters which optimized the probability returned by the Viterbi algorithm.  Number of states is the number of states the user selected.  FRET peaks are where the algorithm believes states to be.  FRET sigma is how wide it believes the distribution of FRET values to be for each state (to obtain the full width half max, the sigma value must be doubled).  Signal sigma is not used and is an invalid parameter.  Entries in the report take the form:  
+\*report.dat provides the model parameters which optimized the probability returned by the Viterbi algorithm.
+
+Number of states is the number of states the user selected.  FRET peaks are where the algorithm believes states to be.  FRET sigma is how wide it believes the distribution of FRET values to be for each state (to obtain the full width half max, the sigma value must be doubled).  Signal sigma is not used and is an invalid parameter.  Entries in the report take the form:  
 \<start FRET\> \<stop FRET\> \<transition probability\> \<fraction spent\> \<transitions found\>
 Fraction spent gives what fraction of the entire FRET trajectory was spent in a \<start FRET\> state that eventually transited into a \<stop FRET\> state.  Transitions found gives the number of transitions in the trajectory that were of the type \<start FRET\> to \<stop FRET\>.  To convert a \<transition probability\> to an actual rate, multiply the \<transition probability\> by the data sampling rate (if you take data with 100ms exposures the sampling rate is 0.1*sec^(-1)).  Note that rows with the same \<start FRET\> and \<stop FRET\> are illegitimate and are provided only for compatibility with TDP.
 
